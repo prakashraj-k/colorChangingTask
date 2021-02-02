@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <form action="">
+        <div class="container">
+          <div class="row mt-4 mb-4">
+            <div class="col-md-8 offset-md-2">
+              <div class="card card-body">
+                <h5 class="card-title">Bootstrap Buttons</h5>
+                <div class="form-group mb-3">
+                  <label>Text</label>
+                  <input type="text" class="form-control" id="user-text" />
+                </div>
+                <div class="form-group mb-3">
+                  <label>Type</label>
+                  <select class="form-control" id="choose-btn-type">
+                    <option selected value="outline">Outline</option>
+                    <option value="">Solid</option>
+                  </select>
+                </div>
+                <div class="form-group mb-3">
+                  <label>Variant Colors</label>
+                  <select class="form-control" id="choose-color">
+                    <option selected value="primary">Primary</option>
+                    <option value="secondary">Secondary</option>
+                    <option value="success">Success</option>
+                    <option value="danger">Danger</option>
+                    <option value="warning">Warning</option>
+                    <option value="info">Info</option>
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                  </select>
+                </div>
+                <div class="form-group mb-3">
+                  <label>Size</label>
+                  <select class="form-control" id="choose-btn-size">
+                    <option selected value="btn-sm">Small</option>
+                    <option value="">Normal</option>
+                    <option value="btn-lg">Large</option>
+                  </select>
+                </div>
+                <div class="text-center">
+                  <div id="submit-value" class="btn btn-primary">Submit</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <section>
+      <form>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 offset-md-2">
+              <div class="card card-body">
+                <h5 class="card-title" id="result">Preview</h5>
+                <div class="text-start">
+                  <div id="output">select</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <script src="./asserts/js/script.js"></script>
+  </body>
+</html>
